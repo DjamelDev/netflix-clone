@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #141414;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+h1, h3, p {
+  margin-bottom: 1rem;  
+  @media screen and (min-width: 768px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.test {
+  width: 100%;
+  height: 50vh;
+}
